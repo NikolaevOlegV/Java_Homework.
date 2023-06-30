@@ -27,7 +27,7 @@ public class program
 
 
         String text = " ";
-        FileReader reader = new FileReader("Homework4/db.sql");
+        FileReader reader = new FileReader("Homework_4/db.sql");
         while (reader. ready ()) {
             text += (char) reader. read();
         }
